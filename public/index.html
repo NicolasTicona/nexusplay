@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NexusPlay</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <header id="header" class="header">
+        <h1 class="title">Nexus<span>Play<i class="fas fa-play"></i></span></h1>
+
+        <form action="" id="search-form">
+            <label for="search-box">Busca tu película</label>
+            <input type="text" name="search" id="search-box">
+            <input type="submit" value="Buscar" id="btn-search">
+        </form>
+    </header>
+
+    <div id="wantedContainer">
+        <div class="infoContainer">
+            <h3 class="title">No se encontró su película</h3>
+            <div class="buttons">
+                <button id="btn-watch">Ver más películas</button>
+                <button id="btn-watchleave"><i class="fas fa-arrow-circle-up"></i></button>
+            </div>
+        </div> 
+    </div>
+
+    <section id="moviesContainer">
+
+        <h2 class="action-genre">Action</h2>
+
+        <section class="listMovieContainer" id="actionList">
+
+            <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+             <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+            <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+                                       
+        </section>
+
+        <h2 class="drama-genre">Drama</h2>
+
+        <section class="listMovieContainer" id="dramaList"> 
+             <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+             <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+             <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>                                   
+        </section>
+
+        
+        <h2 class="animation-genre">Animación</h2>
+
+        <section class="listMovieContainer" id="animationList">
+
+            <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+             <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>
+            <div class="movieItem">
+                <img src="images/spinner.gif" style="width: 60px" alt="">
+                <div class="info">
+                    <h3 class="title"></h3>
+                    <p class="genres"></p>
+                </div>
+                <button class="btn-show">Loading</button>
+            </div>                      
+        </section>        
+
+    </section>
+
+
+    <div id="wrapper"></div>
+
+    <div id="modal">
+        <div class="imageContainer">
+            <img src="./images/video-player.svg" width="200px" alt="">
+        </div>
+        <div class="infoContainer">
+            <h3 class="title"></h3>
+            <p class="description"></p>
+            <button id="btn-hide">Cerrar</button>
+        </div>
+    </div>
+
+
+    <script src="js/scrollNavbar.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
