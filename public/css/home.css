@@ -180,7 +180,7 @@ header form input[type="submit"]:hover{
     justify-content: space-between;
 }
 
- {
+#moviesContainer .listMovieContainer .movieItem img{
     width: 300px;
     margin: 0 auto;
 }

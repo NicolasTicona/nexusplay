@@ -20,6 +20,7 @@ let actionList, dramaList, animationList
 const getMoviesforGenre = async (url) => {
 
     let responseActionList = await fetch(`${url}?genre=action`);
+    console.log(responseActionList);
     ({data: {movies: actionList}} = await responseActionList.json());
 
     let responseDramaList = await fetch(`${url}?genre=drama`);
